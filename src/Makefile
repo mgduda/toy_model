@@ -1,8 +1,7 @@
 all: model
 
+ifneq ($(wildcard ./phys), )
 VPATH := ./phys
-
-ifneq ($(wildcard ./phys/Makefile), )
 include ./phys/Makefile
 endif
 
