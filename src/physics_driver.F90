@@ -62,7 +62,10 @@ contains
 
         write(0,*) 'Calling the physics...'
 
-        call mgd_mp()
+        call mgd_mp(pstate % t, &
+                    pstate % p, &
+                    pstate % qv &
+                   )
 
     end subroutine physics_driver
 

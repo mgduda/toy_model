@@ -17,7 +17,7 @@
 #
 ################################################################################
 
-physics_version=v1.0
+physics_version=v2.0
 
 physics_repo=git@github.com:mgduda/shared_physics.git
 
