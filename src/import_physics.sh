@@ -1,11 +1,22 @@
 #!/usr/bin/env sh
 
+################################################################################
+# import_physics.sh
 #
-# Set the following to match the requirements of the host model:
-# which version of physics are to be obtained,
-# the repository from which physics will be obtained, and
-# the local directory where physics will be placed.
+# The purpose of this script is to obtain a specific version of physics schemes
+#   from an external git repository. At present, the only method for acquiring
+#   these tables is through git, though in future additional methods could be
+#   employed, e.g., using svn or by downloading a physics release from a website
+#   with curl.
 #
+#
+# Set the variables, below, to match the requirements of the host model:
+#  - which version of physics are to be obtained,
+#  - the repository from which physics will be obtained, and
+#  - the local directory where physics will be placed.
+#
+################################################################################
+
 physics_version=v1.0
 
 physics_repo=git@github.com:mgduda/shared_physics.git
