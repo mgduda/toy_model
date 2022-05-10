@@ -12,7 +12,7 @@ intel:
 
 all:
 	$(MAKE) -C src phys_checkout
-	$(MAKE) -C src model
+	$(MAKE) -C src toy_model
 	ln -sf src/toy_model .
 
 clean:
