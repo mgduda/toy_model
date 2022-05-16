@@ -19,7 +19,7 @@
 
 physics_version=v2.0
 
-physics_repo=git@github.com:mgduda/shared_physics.git
+physics_repo=https://github.com/mgduda/shared_physics.git
 
 physics_dir=phys
 
